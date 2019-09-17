@@ -2,7 +2,7 @@ def readfile(filename):
 	lines = []
 	with open(filename,'r') as f:
 		for line in f:
-			lines.append(line.strip())
+			lines.append(line.strip()) #去除换行符号
 	return lines
 
 def convert(lines):
